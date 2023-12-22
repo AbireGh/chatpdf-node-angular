@@ -1,0 +1,19 @@
+<div class="chat-container">
+    <div *ngFor="let message of chatMessages" [ngClass]="message.role">
+      {{ message.content }}
+    </div>
+  </div>
+  
+  <div class="input-container">
+    <div class="input-text">
+      <input [(ngModel)]="userMessage" placeholder="Enter your message" />
+    </div>
+    
+    <div class="file">
+      <fa-icon [icon]="faCoffee" class="icon" size="lg"></fa-icon>
+      <input type="file" class="icon" id="myFile" name="filename"  (change)="selectFile($event)">  
+    </div>
+
+    <button (click)="sendMessage()">Send</button>
+  </div>
+  

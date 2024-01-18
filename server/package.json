@@ -11,14 +11,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@pinecone-database/doc-splitter": "^0.0.1",
     "@pinecone-database/pinecone": "^1.1.2",
+    "ai": "^2.2.30",
     "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
     "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "formdata-polyfill": "^4.0.10",
     "langchain": "^0.0.210",
+    "md5": "^2.3.0",
     "multer": "^1.4.5-lts.1",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "openai-edge": "^1.2.2",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.0.269",
+    "web-streams-polyfill": "^3.2.1"
   },
   "devDependencies": {
-    "dotenv": "^16.1.4"
+    "dotenv": "^16.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
